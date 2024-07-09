@@ -42,8 +42,8 @@ class TrainState(NamedTuple):
   """Container for the training state."""
   params: hk.Params
   opt_state: optax.OptState
-  rng: jnp.DeviceArray
-  step: jnp.DeviceArray
+  rng: jnp.ndarray # Use jnp.ndarray instead of jnp.DeviceArray
+  step: jnp.ndarray # Use jnp.ndarray instead of jnp.DeviceArray
 
 
 class TestState(NamedTuple):
