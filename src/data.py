@@ -1,6 +1,4 @@
-"""Data utils.
-  Provide functions to create regression datasets.
-"""
+
 
 from functools import partial
 import jax

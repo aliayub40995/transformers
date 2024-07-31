@@ -1,13 +1,4 @@
-"""Fleixble Transformer model.
 
-The multi-head-attention class is to some degreee copied from
-https://github.com/deepmind/dm-haiku/blob/main/haiku/_src/attention.py.
-
-This code makes heavy use of Haiku but enables ablation studies on architecture
-choices such as including linear projections, skip connections, normalization
-layer. The aim is to interpolate between stripped down linear and the classic 
-transformer architecture.
-"""
 
 import dataclasses
 from typing import Optional

@@ -1,15 +1,4 @@
-"""Flexible Multi Head Attention module.
 
-Attention: The first class is to high % copied from
-https://github.com/deepmind/dm-haiku/blob/main/haiku/_src/attention.py.
-
-On top of the classic self-attention module, I want a stand alone self-attention
-layer without the additional linear projection. This only makes sense for single
-head attention module.
-(Multi-Head) Attention module (plus some extra functionalities) for use in 
-Transformer architectures.
-
-"""
 import dataclasses
 import math
 from typing import Optional

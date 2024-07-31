@@ -1,6 +1,4 @@
-"""Training fleixble Transformer model.
 
-"""
 from functools import partial
 from typing import Any, MutableMapping, NamedTuple, Tuple
 
